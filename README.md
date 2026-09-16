@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# Amina Beauty
 
-## Project info
+Amina Beauty is a luxury beauty portfolio website for a Nairobi-based makeup artist. The site presents the artist's work, services, and booking contact information in a polished, editorial-style experience.
 
-**URL**: https://lovable.dev/projects/f487f412-1633-4c8c-a08b-42afa3e79504
+> **Status:** This website is currently in development and is not live yet.
 
-## How can I edit this code?
+## Website sections
 
-There are several ways of editing your application.
+- **Hero:** A full-screen introduction for Amina Beauty and the Nairobi makeup artist brand.
+- **Portfolio:** A responsive gallery featuring wedding glam, editorial, natural beauty, evening, artistic, and bridal looks.
+- **Services:** Booking-focused cards for bridal makeup, photoshoot and film makeup, and personal masterclasses.
+- **Contact:** A call to action for visitors to inquire about a booking by email.
 
-**Use Lovable**
+## Tech stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f487f412-1633-4c8c-a08b-42afa3e79504) and start prompting.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
 
-Changes made via Lovable will be committed automatically to this repo.
+## Run locally
 
-**Use your preferred IDE**
+Requirements: Node.js and npm.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Install dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open the local URL shown by Vite in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev      # Start the development server
+npm run build    # Create a production build
+npm run preview  # Preview the production build locally
+npm run lint     # Run ESLint
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project structure
 
-## What technologies are used for this project?
+```text
+src/
+├── components/       # Hero, portfolio, services, contact, and UI components
+├── pages/             # Application pages
+├── assets/            # Portfolio and hero imagery
+├── App.tsx           # Application shell and routing
+└── main.tsx          # Application entry point
+```
 
-This project is built with:
+## Before launch
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The contact email and any booking links should be updated with the final business contact details before the site goes live. Deployment and custom-domain configuration can be added once the website content and contact flow are ready.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/f487f412-1633-4c8c-a08b-42afa3e79504) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is private and intended for the Amina Beauty website.
