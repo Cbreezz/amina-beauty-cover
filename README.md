@@ -54,10 +54,3 @@ src/
 └── main.tsx          # Application entry point
 ```
 
-## Before launch
-
-The contact email and any booking links should be updated with the final business contact details before the site goes live. Deployment and custom-domain configuration can be added once the website content and contact flow are ready.
-
-## License
-
-This project is private and intended for the Amina Beauty website.
